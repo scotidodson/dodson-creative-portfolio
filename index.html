@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <title>Scoti Dodson</title>
+    <meta charset="utf-8">
+    <link id="stylesheet" rel="stylesheet" type="text/css" media="screen" href="light.css" />
+
+    <link rel="apple-touch-icon" sizes="180x180" href="./apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="./favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
+    <link rel="manifest" href="./site.webmanifest">
+    <link rel="mask-icon" href="./safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+  </head>
+  <body>
+    <script src="src/index.js"></script>
+    <nav class="navigation">
+      <h4 class="nav-link" data-id="home">HOME</h4>
+      <h4 class="nav-link" data-id="about">ABOUT</h4>
+      <h4 class="nav-link" data-id="projects">PROJECTS</h4>
+      <h4 class="nav-link" data-id="blog">BLOG</h4>
+      <h4 class="nav-link" data-id="resume">RESUME  </h4>
+    </nav>
+
+    <div class="home">
+      <div class="logo">
+        <img class="sd-logo" src="./images/sd1.png" alt="SCOTI DODSON">
+      </div>
+      <div class="social-icons">
+        <a href="https://github.com/scotidodson" target="_blank" class="social-link">
+          <img src="./images/icons/github_red.png" alt="github" class="social github">
+        </a>
+        <a href="https://www.linkedin.com/in/scotidodson/" target="_blank" class="social-link">
+          <img src="./images/icons/linkedin_red.png" alt="linkedin" class="social linkedin">
+        </a>
+        <a href="https://twitter.com/scoti_" target="_blank" class="social-link">
+          <img src="./images/icons/twitter_red.png" alt="twitter" class="social twitter">
+        </a>
+        <a href="https://medium.com/@scotidodson" target="_blank" class="social-link">
+          <img src="./images/icons/medium_red.png" alt="medium" class="social medium">
+        </a>
+        <a href="mailto:scotidodson@gmail.com" class="social-link">
+          <img src="./images/icons/email_red.png" alt="email" class="social email">
+        </a>
+      </div>
+
+      <div class="theme-toggle">
+        <p><span class="toggle">DARK THEME</span></p>
+      </div>
+
+    </div>
+
+    <div class="about" hidden>
+      <div class="about-container">
+        <div class="scoti">
+          <img class="sd-photo" src="./images/scoti_glasses.jpg" alt="scoti">
+        </div>
+        <div class="about-me">
+          <p><span class="navy-on-gold">Hi, I'm Scoti. I'm a full stack developer with a passion for creating meaningful user experiences. I love finding innovative tech solutions to solve social problems. One small step for JavaScript, one giant leap for mankind? </span></p>
+
+          <p><span class="navy-on-gold">Prior to programming, I spent 5 years in the legal industry doing everything but law - namely, event management, excel wizardry, and process improvement projects.</span></p>
+
+          <p><span class="navy-on-gold">All of these roles were people focused and I've brought that people-first mentality with me to the tech world. (You might be surprised at how much overlap there is between designing an app and an event!)</span></p>
+
+          <p><span class="navy-on-gold">When I'm not coding, I love going to <a href="https://towardsdatascience.com/but-what-will-the-k-nearest-neighbors-think-a21f3f736898" target="_blank">comedy shows</a>, enjoying live music, and using my computer for other creative pursuits - writing, graphic design, videography. Otherwise, I'm probably snuggling with my cat, <a href="https://www.instagram.com/p/9cGiMwpjyT/" target="_blank">Zelda</a>, or my rescue pup, <a href="https://www.instagram.com/p/BXqyCFqB8Kq/" target="_blank">Ruby</a>.</span></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="projects" hidden>
+      <div class="project-container">
+        <div class="project-card">
+          <h4>Let's Do Something</h4>
+          <p class="project-tag-holder">
+            <span class="project-tag">JavaScript</span>
+            <span class="project-tag">React</span>
+            <span class="project-tag">React Router</span>
+            <span class="project-tag">Redux</span>
+            <span class="project-tag">Rails API</span>
+            <span class="project-tag">ActiveRecord Serializer</span>
+            <span class="project-tag">PostgreSQL</span>
+            <span class="project-tag">Custom CSS</span>
+          </p>
+          <a href="https://github.com/scotidodson/frontend-lets-do-something" target="_blank">GitHub</a><br>
+          <a href="https://youtu.be/QIsTWi_Ax9o" target="_blank">Demo</a>
+          <p>Let's Do Something encourages users to try new things in their city and takes the hassle out of organizing the plans. The app allows users to save ideas of what they would like to do in their city, add friends, and host events. When hosting an event, the user can select up to three ideas and their guests vote on which idea sounds best. The host can end the poll at any time. Polls that have votes registered will return the winner based on vote count. Polls without votes will generate a random idea from the ideas selections. All participants are notified of the winning results.</p>
+        </div>
+        <div class="project-card">
+          <h4>Regular Status</h4>
+          <p class="project-tag-holder">
+            <span class="project-tag">JavaScript</span>
+            <span class="project-tag">Rails API</span>
+            <span class="project-tag">Single Page Application</span>
+            <span class="project-tag">ActiveRecord Serializer</span>
+            <span class="project-tag">PostgreSQL</span>
+            <span class="project-tag">Custom CSS</span>
+          </p>
+          <a href="https://github.com/scotidodson/cocktail_club_frontend" target="_blank">GitHub</a><br>
+          <a href="https://youtu.be/J893_UJqbIM" target="_blank">Demo</a>
+          <p>Regular Status was made with bartenders in mind - Users can save custom cocktail recipes and study them in a quiz game. Users can hide or delete recipes as they are mastered. Users win by filling their glass (fills 10% for each correct answer) and achieving regular status with the bartender. If users let their glass reach empty after too many wrong answers (-10% for each wrong answer), they'll be cut off.</p>
+        </div>
+
+        <div class="project-card">
+          <h4>Portfolio Site</h4>
+          <p class="project-tag-holder">
+            <span class="project-tag">JavaScript</span>
+            <span class="project-tag">HTML5</span>
+            <span class="project-tag">Custom CSS</span>
+            <span class="project-tag">Alternating Stylesheets</span>
+            <span class="project-tag">Single Page Application</span>
+          </p>
+          <a href="https://github.com/scotidodson/dodson-portfolio" target="_blank">GitHub</a><br>
+          <p>This site was created with HTML5 and vanilla JavaScript, as a single page application. It's styled with custom CSS and features dual style sheets for light and dark themes that can be toggled back and forth on the home page.</p>
+        </div>
+
+        <div class="project-card">
+          <h4>TV Tracker</h4>
+          <p class="project-tag-holder">
+            <span class="project-tag">Ruby on Rails</span>
+            <span class="project-tag">BCrypt Password Authentication</span>
+            <span class="project-tag">SQLite3</span>
+            <span class="project-tag">Bootstrap</span>
+            <span class="project-tag">Pair Programming</span>
+          </p>
+          <a href="https://github.com/eric-klimowich/tv-tracker" target="_blank">GitHub</a><br>
+          <a href="https://youtu.be/tpWLynPjnJQ" target="_blank">Demo</a>
+          <p>TV Tracker lets you save and review the shows you are watching, want to watch, and have watched. You can search through an existing database of shows to find new shows to watch, or add a show if it doesn't exist yet.  On the show's page you will find a description and where you can watch it, along with reviews (if the show has any) and an average rating. Your homepage also provides watch stats so you can see which of your subscription services you're using and which ones are a waste.</p>
+        </div>
+
+        <div class="project-card">
+          <h4>Mock BnB</h4>
+          <p class="project-tag-holder">
+            <span class="project-tag">JavaScript</span>
+            <span class="project-tag">React</span>
+            <span class="project-tag">React Router</span>
+            <span class="project-tag">Rails API</span>
+            <span class="project-tag">Backend Validations</span>
+            <span class="project-tag">PostgreSQL</span>
+            <span class="project-tag">Custom CSS</span>
+            <span class="project-tag">Pair Programming</span>
+          </p>
+          <a href="https://github.com/danmj/Module-4-Project-Frontend" target="_blank">GitHub</a><br>
+          <!-- <a href="#" target="_blank">Demo</a> -->
+          <p>Mock BnB is a React mock of AirBnB. For this exercise, we focused on ironining out a nimble backend model in our Rails API and creating a clean component structure on the frontend. The user (acting as a guest) can browse for open properties, filter for desired amenities, and book a stay. I worked in a team of three to work on this and practice pair programming and project management on a team.</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="blog" hidden>
+      <div class="blog-container">
+        <div class="blog-card">
+
+          <h4>But What Will the (K-Nearest) Neighbors Think?</h4>
+          <p class="blog-tag-holder">
+            <span class="blog-tag">JavaScript</span>
+            <span class="blog-tag">Data Science</span>
+            <span class="blog-tag">Recommendation Engine</span>
+          </p>
+          <span class="navy-on-gold-blog">
+          <p>Building a JavaScript comedy recommendation engine to explore the concept of k-nearest neighbors</p>
+          <p>I recently co-presented on the basics of machine learning. While looking into some of the common regression and classification algorithms utilized in the field, I looked for practical use cases for each approach. One of the most common... <a href="https://towardsdatascience.com/but-what-will-the-k-nearest-neighbors-think-a21f3f736898" target="_blank">Read More</a></p>
+        </span>
+        </div>
+
+        <div class="blog-card">
+          <h4>Building a Chrome Extension</h4>
+          <p class="blog-tag-holder">
+            <span class="blog-tag">JavaScript</span>
+            <span class="blog-tag">Chrome Dev Tools</span>
+            <span class="blog-tag">Chrome Extension</span>
+          </p>
+          <span class="navy-on-gold-blog">
+          <p>Chrome is famously user-friendly (and especially dev-friendly). This is in part because of how customizable it is. Chrome apps and extensions allow users to easily customize their browser experience... <a href="https://medium.com/@scotidodson/building-a-chrome-extension-9fa6542e5500" target="_blank">Read More</a></p>
+        </span>
+
+        </div>
+
+        <div class="blog-card">
+          <h4>Bringing the Zine into the Digital Era</h4>
+          <p class="blog-tag-holder">
+            <span class="blog-tag">CSS</span>
+            <span class="blog-tag">Frontend</span>
+          </p>
+          <span class="navy-on-gold-blog">
+          <p>Mentioning a ‘zine’ in the digital era is often a marker of identity more than anything else. Queer, punk, and feminist communities have held on to the art of zine-making, but the democratization of media... <a href="https://medium.com/@scotidodson/bringing-the-zine-into-the-digital-era-7d60f02162b3" target="_blank">Read More</a></p>
+        </span>
+        </div>
+
+        <div class="blog-card">
+          <h4>How to Trigger an Email with Ruby on Rails</h4>
+          <p class="blog-tag-holder">
+            <span class="blog-tag">Ruby on Rails</span>
+            <span class="blog-tag">Application Mailer</span>
+          </p>
+          <span class="navy-on-gold-blog">
+          <p>If your inbox in any way resembles mine, you are painfully aware of how many companies utilize email marketing to keep in touch with their customers. Despite how easily email can be abused, email also offers us, as developers, an incredible tool to communicate directly with users... <a href="https://medium.com/@scotidodson/how-to-trigger-an-email-with-ruby-on-rails-b886f722a66b" target="_blank">Read More</a></p>
+        </span>
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>
