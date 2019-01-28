@@ -12,17 +12,23 @@
 
   /******** HOME ********/
 
+  .navigation-container {
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+    /* padding-top: 8%; */
+    padding-bottom: 2%;
+    margin-top: 3%;
+
+  }
+
   .navigation {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    font-size: 1.5em;
+    font-size: 1.7em;
     letter-spacing: 2px;
-    position: sticky;
-    top: 0px;
-    background-color: #fff;
-    padding-top: 8%;
-    padding-bottom: 2%;
+
   }
 
   .navigation h4:hover {
@@ -39,6 +45,13 @@
     padding-bottom: 5px;
     padding-left: 8px;
     padding-right: 8px;
+  }
+
+  .nav-link a {
+    text-decoration: none;
+    text-transform: none;
+    cursor: crosshair;
+    color: #fff;
   }
 
   .social-icons {
@@ -59,16 +72,15 @@
   }
 
   .social-link img {
-    width: 60px;
+    width: 90px;
   }
 
   .social:hover {
-    width: 70px;
+    width: 95px;
   }
 
-  .logo {
-    margin-top: 2%;
-    cursor: none;
+  .logo a {
+    cursor: crosshair;
   }
 
   .logo img {
@@ -132,8 +144,8 @@
   }
 
   .about-me p {
-    font-size: 1.1em;
-    line-height: 22px;
+    font-size: 1.5em;
+    line-height: 26px;
     letter-spacing: 1px;
     font-weight: 400;
     font-family: georgia;
