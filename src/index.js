@@ -21,36 +21,32 @@ document.addEventListener('DOMContentLoaded', () => {
 
     navigation.addEventListener('click', (event) => {
       switch (event.target.dataset.id) {
-        case 'home':
-          // navigation.style.marginTop="12%"
-          home.hidden = false
-          about.hidden = true
-          projects.hidden = true
-          blog.hidden = true
-          break;
         case 'about':
           // navigation.style.marginTop="0%"
           home.hidden = true
           about.hidden = false
-          projects.hidden = true
-          blog.hidden = true
+          design.hidden = true
+          writing.hidden = true
           break;
-        case 'projects':
+        case 'writing':
           // navigation.style.marginTop="0%"
           home.hidden = true
           about.hidden = true
-          projects.hidden = false
-          blog.hidden = true
+          writing.hidden = false
+          design.hidden = true
           break;
-        case 'blog':
+        case 'design':
           // navigation.style.marginTop="0%"
           home.hidden = true
           about.hidden = true
-          projects.hidden = true
-          blog.hidden = false
+          writing.hidden = true
+          design.hidden = false
           break;
-        case 'resume':
-          window.open('https://drive.google.com/file/d/1OLpYbvGF9rcMHzVW8KRfVxD0SWmE_Kfb/view?usp=sharing');
+        case 'code':
+          home.hidden = false
+          about.hidden = true
+          writing.hidden = true
+          design.hidden = true
           break;
         default:
 

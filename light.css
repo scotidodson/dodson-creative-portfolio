@@ -184,13 +184,13 @@
 
   /******* BLOG *******/
 
-  .blog-container {
+  .writing-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
   }
 
-  .blog-card {
+  .writing-card {
     max-width: 60%;
     padding-left: 3%;
     padding-right: 3%;
@@ -206,7 +206,7 @@
     text-align: left;
   }
 
-  .blog-card h4 {
+  .writing-card h4 {
     font-family: helvetica neue;
     letter-spacing: 1px;
     font-style: italic;
@@ -216,7 +216,7 @@
     margin-top: 0;
   }
 
-  .navy-on-gold-blog {
+  .navy-on-gold-writing {
     /* display: inline-block; */
     /* max-width: 70%; */
     color: #10202f;
@@ -226,7 +226,7 @@
     text-align: justify;
   }
 
-  .navy-on-gold-blog:hover {
+  .navy-on-gold-writing:hover {
     color: #10202f;
     text-align: left;
     padding-top: 0;
@@ -235,7 +235,7 @@
     text-align: justify;
   }
 
-  .navy-on-gold-blog a {
+  .navy-on-gold-writing a {
     text-decoration: none;
     text-transform: uppercase;
     color: #c6a661;
@@ -243,12 +243,12 @@
     font-weight: 500;
     font-size: .8em;
   }
-  .navy-on-gold-blog a:hover {
+  .navy-on-gold-writing a:hover {
     text-decoration: underline;
     cursor: crosshair;
   }
 
-  .blog-tag {
+  .writing-tag {
     color: #fff;
     background-color: #773832;
     text-transform: uppercase;
@@ -261,17 +261,17 @@
     line-height: 28px;
   }
 
-  .blog-tag-holder {
+  .writing-tag-holder {
     text-align: center;
   }
 
-  .blog-tag-holder p {
+  .writing-tag-holder p {
     padding: 0;
   }
 
   /******* PROJECTS *******/
 
-  .project-container {
+  .design-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -280,7 +280,7 @@
     margin-right: 10%;
   }
 
-  .project-card {
+  .design-card {
     max-width: 350px;
     width: auto;
     margin-left: 2%;
@@ -295,7 +295,7 @@
 
   }
 
-  .project-card h4 {
+  .design-card h4 {
     color: #773832;
     font-family: helvetica neue;
     letter-spacing: 1px;
@@ -307,7 +307,7 @@
     text-transform: uppercase;
   }
 
-  .project-tag {
+  .design-tag {
     color: #fff;
     background-color: #10202f;
     text-transform: uppercase;
@@ -324,11 +324,11 @@
 
   }
 
-  .project-tag-holder {
+  .design-tag-holder {
     text-align: center;
   }
 
-  .project-card a {
+  .design-card a {
     text-decoration: none;
     text-transform: uppercase;
     color: #c6a661;
